@@ -198,6 +198,7 @@ import { Iconify } from '@/minimals/components/iconify';
 ## 📚 Recursos Úteis
 
 -   [Minimals.cc](https://minimals.cc/)
+-   [Minimals Components](https://minimals.cc/components)
 -   [Material-UI Documentation](https://mui.com/material-ui/all-components/)
 -   [React Hook Form](https://react-hook-form.com/)
 -   [Iconify](https://iconify.design/)
