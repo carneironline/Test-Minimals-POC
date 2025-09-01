@@ -11,6 +11,10 @@ Esta é uma Prova de Conceito (POC) criada para estudar e entender como utilizar
 -   Demonstrar a integração com Material-UI
 -   Criar uma base reutilizável para futuros projetos
 
+## 🌐 Demonstração
+
+🔗 **[Ver projeto online](https://test-minimals-poc.vercel.app)**
+
 ## 🏗️ Estrutura do Projeto
 
 ```
