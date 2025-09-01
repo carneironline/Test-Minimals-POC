@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import axios, { type AxiosRequestConfig, type AxiosResponse, type AxiosError } from 'axios';
 
 import { HOST_API } from '@minimals/config-global';
 
@@ -7,8 +7,8 @@ import { HOST_API } from '@minimals/config-global';
 const axiosInstance = axios.create({ baseURL: HOST_API });
 
 axiosInstance.interceptors.response.use(
-    (res) => res,
-    (error) => Promise.reject((error.response && error.response.data) || 'Something went wrong')
+    (res: AxiosResponse) => res,
+    (error: AxiosError) => Promise.reject((error.response && error.response.data) || 'Something went wrong')
 );
 
 export default axiosInstance;

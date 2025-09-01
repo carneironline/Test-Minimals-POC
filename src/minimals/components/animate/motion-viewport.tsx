@@ -1,6 +1,6 @@
-import { m, MotionProps } from 'framer-motion';
+import { m } from 'framer-motion';
 
-import Box, { BoxProps } from '@mui/material/Box';
+import Box, { type BoxProps } from '@mui/material/Box';
 
 import { useResponsive } from '@minimals/hooks/use-responsive';
 
@@ -8,9 +8,7 @@ import { varContainer } from './variants';
 
 // ----------------------------------------------------------------------
 
-type IProps = BoxProps & MotionProps;
-
-interface Props extends IProps {
+interface Props extends BoxProps {
     children: React.ReactNode;
     disableAnimatedMobile?: boolean;
 }

@@ -4,7 +4,8 @@ import { loadingButtonClasses } from '@mui/lab/LoadingButton';
 
 // ----------------------------------------------------------------------
 
-export function loadingButton(theme: Theme) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function loadingButton(_theme: Theme) {
     return {
         MuiLoadingButton: {
             styleOverrides: {

@@ -2,7 +2,7 @@ import { alpha, styled } from '@mui/material/styles';
 
 import { bgBlur } from '@minimalsTheme/css';
 
-import { MenuPopoverArrowValue } from './types';
+import { type MenuPopoverArrowValue } from './types';
 
 // ----------------------------------------------------------------------
 

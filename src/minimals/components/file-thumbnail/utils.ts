@@ -1,4 +1,4 @@
-import { ExtendFile } from './types';
+import { type ExtendFile } from './types';
 
 // ----------------------------------------------------------------------
 

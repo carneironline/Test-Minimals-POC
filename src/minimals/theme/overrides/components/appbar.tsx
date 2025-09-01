@@ -2,7 +2,8 @@ import type { Theme } from '@mui/material/styles';
 
 // ----------------------------------------------------------------------
 
-export function appBar(theme: Theme) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function appBar(_theme: Theme) {
     return {
         MuiAppBar: {
             styleOverrides: {

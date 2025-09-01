@@ -26,7 +26,7 @@ export default function NavList({ data, depth, slotProps }: NavListProps) {
 
     const handleToggleMenu = useCallback(() => {
         if (data.children) {
-            setOpenMenu((prev) => !prev);
+            setOpenMenu((prev: boolean) => !prev);
         }
     }, [data.children]);
 

@@ -19,7 +19,7 @@ import FormProvider, { RHFTextField } from '@minimals/components/hook-form';
 // ----------------------------------------------------------------------
 
 export default function JwtLoginView() {
-    const [errorMsg, setErrorMsg] = useState('');
+    const [errorMsg] = useState('');
 
     const password = useBoolean();
 
@@ -39,12 +39,11 @@ export default function JwtLoginView() {
     });
 
     const {
-        reset,
         handleSubmit,
         formState: { isSubmitting },
     } = methods;
 
-    const onSubmit = handleSubmit(async (data) => {});
+    const onSubmit = handleSubmit(async () => {});
 
     const renderHead = (
         <Stack spacing={2} sx={{ mb: 5 }}>
